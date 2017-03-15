@@ -1,50 +1,50 @@
 {
-  "name": "lora-packet",
-  "version": "0.6.0",
-  "author": "Anthony Kirby",
-  "description": "LoRa packet decoder/encoder",
-  "keywords": [
-    "lora",
-    "packet",
-    "parse",
-    "decrypt",
-    "verify",
-    "encode",
-    "decode"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/anthonykirby/lora-packet.git"
-  },
-  "bugs": {
-    "url": "https://github.com/anthonykirby/lora-packet/issues"
-  },
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -g unit"
-  },
-  "bin":  {
-    "lora-packet-decode": "./bin/lora-packet-decode"
-  },
-  "license": "",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "dependencies": {
-    "crypto-js": "^3.1.6",
-    "node-aes-cmac": "^0.1.1"
-  },
-  "keywords": [ "node-red" ],
+	"name": "lora-packet",
+	"version": "0.6.0",
+	"author": "Anthony Kirby",
+	"description": "LoRa packet decoder/encoder",
+	"keywords": [
+		"lora",
+		"packet",
+		"parse",
+		"decrypt",
+		"verify",
+		"encode",
+		"decode"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anthonykirby/lora-packet.git"
+	},
+	"bugs": {
+		"url": "https://github.com/anthonykirby/lora-packet/issues"
+	},
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "./node_modules/mocha/bin/mocha -g unit"
+	},
+	"bin":  {
+		"lora-packet-decode": "./bin/lora-packet-decode"
+	},
+	"license": "",
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"dependencies": {
+		"crypto-js": "^3.1.6",
+		"node-aes-cmac": "^0.1.1"
+	},
+	"keywords": [ "node-red" ],
 	"node-red"     : {
 		"nodes": {
 			"sample": "sample/sample.js"
 		}
 	}
-  "license": "MIT",
-  "devDependencies": {
-    "js-base64": "^2.1.9",
-    "mocha": "^2.5.3",
-    "chai": "^3.5.0"
-  }
+	"license": "MIT",
+	"devDependencies": {
+		"js-base64": "^2.1.9",
+		"mocha": "^2.5.3",
+		"chai": "^3.5.0"
+	}
 }
