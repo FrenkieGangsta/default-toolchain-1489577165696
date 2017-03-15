@@ -1,0 +1,20 @@
+<script type="text/javascript">
+    RED.nodes.registerType('node-type',{
+        // node definition
+    });
+</script>
+
+<script type="text/x-red" data-template-name="node-type">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-tips"><b>Tip:</b> This is here to help.</div>
+</script>
+
+<script type="text/x-red" data-help-name="node-type">
+   <p>Some useful help text to introduce the node.</p>
+   <p>Outputs an object called <code>msg</code> containing <code>msg.topic</code> and
+   <code>msg.payload</code>.</p>
+   <p><code>msg.payload</code> is a <i>String</i>.</p>
+</script>
