@@ -40,7 +40,7 @@
 		"nodes": {
 			"sample": "sample/sample.js"
 		}
-	}
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"js-base64": "^2.1.9",
