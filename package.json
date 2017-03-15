@@ -36,10 +36,11 @@
     "node-aes-cmac": "^0.1.1"
   },
   "keywords": [ "node-red" ],
-    "node-red"     : {
-        "nodes": {
-            "sample": "sample/sample.js"
-        }
+	"node-red"     : {
+		"nodes": {
+			"sample": "sample/sample.js"
+		}
+	}
   "license": "MIT",
   "devDependencies": {
     "js-base64": "^2.1.9",
